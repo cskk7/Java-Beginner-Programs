@@ -1,5 +1,5 @@
 /*
-  To find whether the input is Armstrong number or not
+  To find whether the number is ARMSTRONG NUMBER or NOT
  */
 import java.util.*;
 import java.io.*;

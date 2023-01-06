@@ -1,5 +1,5 @@
 /*
- Write a code to find the sum of digits in an integer
+ Write a code to find the SUM of DIGITS in an integer
  */
 import java.util.*;
 
