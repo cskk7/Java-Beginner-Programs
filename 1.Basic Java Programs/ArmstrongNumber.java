@@ -1,18 +1,21 @@
+/*
+  To find whether the input is Armstrong number or not
+ */
 import java.util.*;
 import java.io.*;
 
 public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int temp = n;
+        int number = sc.nextInt();
+        int temp = number;
         int sum = 0;
-        String num = Integer.toString(n);
-        int size = num.length();
-        while(n>0){
-            int x = n%10;
+        String num = Integer.toString(number); // converting int to string
+        int size = num.length();              // finding and storing the number of digits 
+        while(number>0){
+            int x = number % 10;
             sum = sum + (int)Math.pow(x,size);
-            n /= 10;
+            number /= 10;
         }
         if(sum==temp){
             System.out.println("Armstrong Number");
