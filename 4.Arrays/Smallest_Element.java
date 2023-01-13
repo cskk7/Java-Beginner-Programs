@@ -1,5 +1,5 @@
 /*
-  To find out the SMALLEST ELEMENT inthe array
+  To find out the SMALLEST ELEMENT in the array
  */
 import java.util.Scanner;
 
