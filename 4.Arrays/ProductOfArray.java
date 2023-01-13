@@ -1,3 +1,6 @@
+/*
+ To find the PRODUCT of the ARRAY
+ */
 import java.util.Scanner;
 
 public class ProductOfArray {
